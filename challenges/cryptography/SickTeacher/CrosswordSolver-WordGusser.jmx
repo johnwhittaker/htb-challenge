@@ -62,7 +62,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -98,6 +98,15 @@
           </objProp>
           <stringProp name="filename"></stringProp>
         </ResultCollector>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="true">
+          <stringProp name="BeanShellSampler.query">
+	System.out.println(&quot;**************&quot;);
+</stringProp>
+          <stringProp name="BeanShellSampler.filename"></stringProp>
+          <stringProp name="BeanShellSampler.parameters"></stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
         <hashTree/>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
@@ -152,14 +161,14 @@ JOEJIBIOIBCM
 </stringProp>
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                 <stringProp name="RegexExtractor.refname">output</stringProp>
-                <stringProp name="RegexExtractor.regex">([A-Z]{1,1}${__char(x)}{__char(y)}{__char(y)}${__char(x)}[A-Z]{3,3})</stringProp>
+                <stringProp name="RegexExtractor.regex">([A-Z]{1,1}${__char(${x})}${__char(${y})}${__char(${y})}${__char(${x})}[A-Z]{3,3})</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default"></stringProp>
                 <stringProp name="RegexExtractor.match_number">-1</stringProp>
               </RegexExtractor>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - ([A-Z]{1,1}${__char(x)}{__char(y)}{__char(y)}${__char(x)}[A-Z]{3,3})" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - ${__char(${x})}${__char(${y})}${__char(${x})}([A-Z]{1,1}${__char(${y})}[A-Z]{2,2})" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
@@ -179,28 +188,23 @@ JOEJIBIOIBCM
             </HTTPSamplerProxy>
             <hashTree>
               <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
-                <stringProp name="TestPlan.comments">
-([A-Z]{1,1}${__char(x)}{__char(y)}{__char(y)}${__char(x)}[A-Z]{3,3})
-(${__char(${y})}[A-Z]{2,2}${__char(${y})}${__char(${x})}[A-Z]{1,1}${__char(${x})}[A-Z]{1,1}${__char(${x})}[A-Z]{3,3})</stringProp>
+                <stringProp name="TestPlan.comments">NWNEWYJ</stringProp>
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                 <stringProp name="RegexExtractor.refname">output</stringProp>
-                <stringProp name="RegexExtractor.regex">([A-Z]{1,1}${__char(x)}{__char(y)}{__char(y)}${__char(x)}[A-Z]{3,3})</stringProp>
+                <stringProp name="RegexExtractor.regex">(${__char(${x})}${__char(${y})}${__char(${x})}[A-Z]{1,1}${__char(${y})}[A-Z]{2,2})</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default"></stringProp>
                 <stringProp name="RegexExtractor.match_number">-1</stringProp>
               </RegexExtractor>
               <hashTree/>
             </hashTree>
-            <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="false">
-              <stringProp name="BeanShellSampler.query">
-
-int x = Integer.parseInt(vars.get(&quot;output_matchNr&quot;));
+            <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="true">
+              <stringProp name="BeanShellSampler.query">int x = Integer.parseInt(vars.get(&quot;output_matchNr&quot;));
 
 for(int i = 0; i&lt; x;i++)
 {
 	System.out.println(vars.get(&quot;output_&quot;+x));
-}
-</stringProp>
+}</stringProp>
               <stringProp name="BeanShellSampler.filename"></stringProp>
               <stringProp name="BeanShellSampler.parameters"></stringProp>
               <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
