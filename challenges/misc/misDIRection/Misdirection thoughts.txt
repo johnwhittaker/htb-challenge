@@ -1,2 +1,6 @@
 Some folders empty, some folders with more than 1 file
 Folders are numbers, upper and lower case letters. Order folders into ASCII and then extract numbers?
+
+
+36 Files in number order, 36 letters + 0-9
+
