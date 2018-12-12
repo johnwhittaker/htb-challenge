@@ -136,7 +136,7 @@
               <boolProp name="CounterConfig.per_user">false</boolProp>
             </CounterConfig>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - ${x} - ${y}" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - ${x} - ${y}" enabled="false">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
@@ -161,15 +161,14 @@ JOEJIBIOIBCM
 </stringProp>
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                 <stringProp name="RegexExtractor.refname">output</stringProp>
-                <stringProp name="RegexExtractor.regex">(${__char(${x})}${__char(${y})}${__char(${x})}${__char(${y})})</stringProp>
+                <stringProp name="RegexExtractor.regex">([A-Z]{1,1}${__char(${x})}${__char(${y})}${__char(${y})}${__char(${x})}[A-Z]{3,3})</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default"></stringProp>
                 <stringProp name="RegexExtractor.match_number">-1</stringProp>
-                <boolProp name="RegexExtractor.default_empty_value">true</boolProp>
               </RegexExtractor>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - ${__char(${x})}${__char(${y})}${__char(${x})}([A-Z]{1,1}${__char(${y})}[A-Z]{2,2})" enabled="false">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - ${__char(${x})}${__char(${y})}${__char(${x})}([A-Z]{1,1}${__char(${y})}[A-Z]{2,2})" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>

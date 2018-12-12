@@ -165,7 +165,6 @@ JOEJIBIOIBCM
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default"></stringProp>
                 <stringProp name="RegexExtractor.match_number">-1</stringProp>
-                <boolProp name="RegexExtractor.default_empty_value">true</boolProp>
               </RegexExtractor>
               <hashTree/>
             </hashTree>
