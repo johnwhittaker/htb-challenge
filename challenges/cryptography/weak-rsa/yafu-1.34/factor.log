@@ -1,0 +1,82 @@
+12/14/18 15:00:46 v1.34.5 @ DESKTOP-KC8VMI5, 
+12/14/18 15:00:46 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 15:00:46 v1.34.5 @ DESKTOP-KC8VMI5, Starting factorization of 573177824579630911668469272712547865443556654086190104722795509756891670023259031275433509121481030331598569379383505928315495462888788593695945321417676298471525243254143375622365552296949413920679290535717172319562064308937342567483690486592868352763021360051776130919666984258847567032959931761686072492923
+12/14/18 15:00:46 v1.34.5 @ DESKTOP-KC8VMI5, using pretesting plan: normal
+12/14/18 15:00:46 v1.34.5 @ DESKTOP-KC8VMI5, no tune info: using qs/gnfs crossover of 95 digits
+12/14/18 15:00:46 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 15:00:47 v1.34.5 @ DESKTOP-KC8VMI5, rho: x^2 + 3, starting 1000 iterations on C309
+12/14/18 15:00:47 v1.34.5 @ DESKTOP-KC8VMI5, rho: x^2 + 2, starting 1000 iterations on C309
+12/14/18 15:00:47 v1.34.5 @ DESKTOP-KC8VMI5, rho: x^2 + 1, starting 1000 iterations on C309
+12/14/18 15:00:47 v1.34.5 @ DESKTOP-KC8VMI5, pm1: starting B1 = 150K, B2 = gmp-ecm default on C309
+12/14/18 15:00:48 v1.34.5 @ DESKTOP-KC8VMI5, current ECM pretesting depth: 0.00
+12/14/18 15:00:48 v1.34.5 @ DESKTOP-KC8VMI5, scheduled 30 curves at B1=2000 toward target pretesting depth of 95.08
+12/14/18 15:00:53 v1.34.5 @ DESKTOP-KC8VMI5, Finished 30 curves using Lenstra ECM method on C309 input, B1=2K, B2=gmp-ecm default
+12/14/18 15:00:53 v1.34.5 @ DESKTOP-KC8VMI5, current ECM pretesting depth: 15.18
+12/14/18 15:00:53 v1.34.5 @ DESKTOP-KC8VMI5, scheduled 74 curves at B1=11000 toward target pretesting depth of 95.08
+12/14/18 15:01:33 v1.34.5 @ DESKTOP-KC8VMI5, Finished 74 curves using Lenstra ECM method on C309 input, B1=11K, B2=gmp-ecm default
+12/14/18 15:01:33 v1.34.5 @ DESKTOP-KC8VMI5, current ECM pretesting depth: 20.24
+12/14/18 15:01:33 v1.34.5 @ DESKTOP-KC8VMI5, scheduled 214 curves at B1=50000 toward target pretesting depth of 95.08
+12/14/18 15:10:43 v1.34.5 @ DESKTOP-KC8VMI5, Finished 214 curves using Lenstra ECM method on C309 input, B1=50K, B2=gmp-ecm default
+12/14/18 15:10:43 v1.34.5 @ DESKTOP-KC8VMI5, pm1: starting B1 = 3750K, B2 = gmp-ecm default on C309
+12/14/18 15:11:04 v1.34.5 @ DESKTOP-KC8VMI5, current ECM pretesting depth: 25.33
+12/14/18 15:11:04 v1.34.5 @ DESKTOP-KC8VMI5, scheduled 430 curves at B1=250000 toward target pretesting depth of 95.08
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, 
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, Starting factorization of 391
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, using pretesting plan: normal
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, no tune info: using qs/gnfs crossover of 95 digits
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 17
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 23
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, Total factoring time = 0.0240 seconds
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, 
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, Starting factorization of 187
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, using pretesting plan: normal
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, no tune info: using qs/gnfs crossover of 95 digits
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 11
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 17
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, Total factoring time = 0.0240 seconds
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, 
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, Starting factorization of 2007
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, using pretesting plan: normal
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, no tune info: using qs/gnfs crossover of 95 digits
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 3
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 3
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 223
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, Total factoring time = 0.0280 seconds
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, 
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, Starting factorization of 2009
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, using pretesting plan: normal
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, no tune info: using qs/gnfs crossover of 95 digits
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 7
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 7
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 41
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, Total factoring time = 0.0280 seconds
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, 
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, Starting factorization of 15485863
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, using pretesting plan: normal
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, no tune info: using qs/gnfs crossover of 95 digits
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, prp8 = 15485863
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, Total factoring time = 0.0312 seconds
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, 
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, Starting factorization of 15485862
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, using pretesting plan: normal
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, no tune info: using qs/gnfs crossover of 95 digits
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, ****************************
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 2
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 3
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 7
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, div: found prime factor = 7
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, Fermat method found factors:
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, prp5 = 52673
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, c1 = 1
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, Total factoring time = 0.0312 seconds

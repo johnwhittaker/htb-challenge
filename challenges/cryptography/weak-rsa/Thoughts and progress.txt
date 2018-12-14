@@ -1,0 +1,106 @@
+
+
+
+https://holtstrom.com/michael/tools/asn1decoder.php
+
+
+MIIBHzANBgkqhkiG9w0BAQEFAAOCAQwAMIIBBwKBgQMwO3kPsUnaNAbUlaubn7ip4pNEXjvUOxjvLwUhtybr6Ng4undLtSQPCPf7ygoUKh1KYeqXMpTmhKjRos3xioTy23CZuOl3WIsLiRKSVYyqBc9d8rxjNMXuUIOiNO38ealcR4p44zfHI66INPuKmTG3RQP/6p5hv1PYcWmErEeDewKBgGEXxgRIsTlFGrW2C2JXoSvakMCWD60eAH0W2PpDqlqqOFD8JA5UFK0roQkOjhLWSVu8c6DLpWJQQlXHPqP702qIg/gx2o0bm4EzrCEJ4gYo6Ax+U7q6TOWhQpiBHnC0ojE8kUoqMhfALpUaruTJ6zmj8IA1e1M6bMqVF8srlb/N
+
+*********************
+Converts into 
+*********************
+
+SEQUENCE {
+   SEQUENCE {
+      OBJECTIDENTIFIER 1.2.840.113549.1.1.1 (rsaEncryption)
+      NULL 
+   }
+   BITSTRING 0x3082010702818103303b790fb149da3406d495ab9b9fb8a9e293445e3bd43b18ef2f0521b726ebe8d838ba774bb5240f08f7fbca0a142a1d4a61ea973294e684a8d1a2cdf18a84f2db7099b8e977588b0b891292558caa05cf5df2bc6334c5ee5083a234edfc79a95c478a78e337c723ae8834fb8a9931b74503ffea9e61bf53d8716984ac47837b0281806117c60448b139451ab5b60b6257a12bda90c0960fad1e007d16d8fa43aa5aaa3850fc240e5414ad2ba1090e8e12d6495bbc73a0cba562504255c73ea3fbd36a8883f831da8d1b9b8133ac2109e20628e80c7e53baba4ce5a14298811e70b4a2313c914a2a3217c02e951aaee4c9eb39a3f080357b533a6cca9517cb2b95bfcd : 0 unused bit(s)
+}
+
+
+
+[ec2-user@ip-172-31-6-1 tmp]$ openssl rsa -inform PEM -pubin -in test.pem -text -noout
+Public-Key: (1026 bit)
+Modulus:
+    03:30:3b:79:0f:b1:49:da:34:06:d4:95:ab:9b:9f:
+    b8:a9:e2:93:44:5e:3b:d4:3b:18:ef:2f:05:21:b7:
+    26:eb:e8:d8:38:ba:77:4b:b5:24:0f:08:f7:fb:ca:
+    0a:14:2a:1d:4a:61:ea:97:32:94:e6:84:a8:d1:a2:
+    cd:f1:8a:84:f2:db:70:99:b8:e9:77:58:8b:0b:89:
+    12:92:55:8c:aa:05:cf:5d:f2:bc:63:34:c5:ee:50:
+    83:a2:34:ed:fc:79:a9:5c:47:8a:78:e3:37:c7:23:
+    ae:88:34:fb:8a:99:31:b7:45:03:ff:ea:9e:61:bf:
+    53:d8:71:69:84:ac:47:83:7b
+Exponent:
+    61:17:c6:04:48:b1:39:45:1a:b5:b6:0b:62:57:a1:
+    2b:da:90:c0:96:0f:ad:1e:00:7d:16:d8:fa:43:aa:
+    5a:aa:38:50:fc:24:0e:54:14:ad:2b:a1:09:0e:8e:
+    12:d6:49:5b:bc:73:a0:cb:a5:62:50:42:55:c7:3e:
+    a3:fb:d3:6a:88:83:f8:31:da:8d:1b:9b:81:33:ac:
+    21:09:e2:06:28:e8:0c:7e:53:ba:ba:4c:e5:a1:42:
+    98:81:1e:70:b4:a2:31:3c:91:4a:2a:32:17:c0:2e:
+    95:1a:ae:e4:c9:eb:39:a3:f0:80:35:7b:53:3a:6c:
+    ca:95:17:cb:2b:95:bf:cd
+	
+	
+(base) C:\Users\john_\OneDrive\Documents\GitHub\htb-challenge\challenges\cryptography\weak-rsa\yafu-1.34>yafu-x64.exe factor("0x03303b790fb149da3406d495ab9b9fb8a9e293445e3bd43b18ef2f0521b726ebe8d838ba774bb5240f08f7fbca0a142a1d4a61ea973294e684a8d1a2cdf18a84f2db7099b8e977588b0b891292558caa05cf5df2bc6334c5ee5083a234edfc79a95c478a78e337c723ae8834fb8a9931b74503ffea9e61bf53d8716984ac47837b")
+
+
+
+
+fac: factoring 573177824579630911668469272712547865443556654086190104722795509756891670023259031275433509121481030331598569379383505928315495462888788593695945321417676298471525243254143375622365552296949413920679290535717172319562064308937342567483690486592868352763021360051776130919666984258847567032959931761686072492923
+fac: using pretesting plan: normal
+fac: no tune info: using qs/gnfs crossover of 95 digits
+div: primes less than 10000
+fmt: 1000000 iterations
+rho: x^2 + 3, starting 1000 iterations on C309
+rho: x^2 + 2, starting 1000 iterations on C309
+rho: x^2 + 1, starting 1000 iterations on C309
+pm1: starting B1 = 150K, B2 = gmp-ecm default on C309
+ecm: 30/30 curves on C309, B1=2K, B2=gmp-ecm default
+ecm: 74/74 curves on C309, B1=11K, B2=gmp-ecm default
+ecm: 205/214 curves on C309, B1=50K, B2=gmp-ecm default, ETA: 25 sec
+
+
+
+#Title of this code
+#python 2.7.8
+
+x = 573177824579630911668469272712547865443556654086190104722795509756891670023259031275433509121481030331598569379383505928315495462888788593695945321417676298471525243254143375622365552296949413920679290535717172319562064308937342567483690486592868352763021360051776130919666984258847567032959931761686072492923 
+i = 3
+while i<x:
+    if x%i == 0:
+        print (' divisor '  ,i)
+    i = i + 2
+
+	
+	
+	
+	
+e = 0x6117c60448b139451ab5b60b6257a12bda90c0960fad1e007d16d8fa43aa5aaa3850fc240e5414ad2ba1090e8e12d6495bbc73a0cba562504255c73ea3fbd36a8883f831da8d1b9b8133ac2109e20628e80c7e53baba4ce5a14298811e70b4a2313c914a2a3217c02e951aaee4c9eb39a3f080357b533a6cca9517cb2b95bfcd
+n = 0x03303b790fb149da3406d495ab9b9fb8a9e293445e3bd43b18ef2f0521b726ebe8d838ba774bb5240f08f7fbca0a142a1d4a61ea973294e684a8d1a2cdf18a84f2db7099b8e977588b0b891292558caa05cf5df2bc6334c5ee5083a234edfc79a95c478a78e337c723ae8834fb8a9931b74503ffea9e61bf53d8716984ac47837b
+p = 1
+q = 573177824579630911668469272712547865443556654086190104722795509756891670023259031275433509121481030331598569379383505928315495462888788593695945321417676298471525243254143375622365552296949413920679290535717172319562064308937342567483690486592868352763021360051776130919666984258847567032959931761686072492923
+
+
+
+
+def egcd(a, b):
+    if a == 0:
+        return (b, 0, 1)
+    else:
+        g, y, x = egcd(b % a, a)
+        return (g, x - (b // a) * y, y)
+
+def modinv(a, m):
+    gcd, x, y = egcd(a, m)
+    if gcd != 1:
+        return None  # modular inverse does not exist
+    else:
+        return x % m
+ 
+>>> d = modinv(e,phi)
+>>> d
+
+>>> hex(d)

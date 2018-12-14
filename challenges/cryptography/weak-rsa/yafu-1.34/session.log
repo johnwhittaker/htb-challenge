@@ -1,0 +1,84 @@
+12/14/18 15:00:46 v1.34.5 @ DESKTOP-KC8VMI5, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz
+detected L1 = 32768 bytes, L2 = 4194304 bytes, CL = 64 bytes
+measured cpu frequency ~= 1400.021370
+using 20 random witnesses for Rabin-Miller PRP checks
+
+12/14/18 15:00:46 v1.34.5 @ DESKTOP-KC8VMI5, New random seeds: 923490169, 505025136
+
+12/14/18 15:00:46 v1.34.5 @ DESKTOP-KC8VMI5, Processing expression: factor(0x03303b790fb149da3406d495ab9b9fb8a9e293445e3bd43b18ef2f0521b726ebe8d838ba774bb5240f08f7fbca0a142a1d4a61ea973294e684a8d1a2cdf18a84f2db7099b8e977588b0b891292558caa05cf5df2bc6334c5ee5083a234edfc79a95c478a78e337c723ae8834fb8a9931b74503ffea9e61bf53d8716984ac47837b)
+
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz
+detected L1 = 32768 bytes, L2 = 4194304 bytes, CL = 64 bytes
+measured cpu frequency ~= 1423.610380
+using 20 random witnesses for Rabin-Miller PRP checks
+
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, New random seeds: 76237653, 448464808
+
+12/14/18 17:56:45 v1.34.5 @ DESKTOP-KC8VMI5, Processing expression: factor(0x187)
+
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz
+detected L1 = 32768 bytes, L2 = 4194304 bytes, CL = 64 bytes
+measured cpu frequency ~= 1406.187290
+using 20 random witnesses for Rabin-Miller PRP checks
+
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, New random seeds: 1869202091, 1565039152
+
+12/14/18 17:56:54 v1.34.5 @ DESKTOP-KC8VMI5, Processing expression: factor(187)
+
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz
+detected L1 = 32768 bytes, L2 = 4194304 bytes, CL = 64 bytes
+measured cpu frequency ~= 1416.482000
+using 20 random witnesses for Rabin-Miller PRP checks
+
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, New random seeds: 2889065306, 4030241664
+
+12/14/18 17:57:14 v1.34.5 @ DESKTOP-KC8VMI5, Processing expression: factor(2007)
+
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz
+detected L1 = 32768 bytes, L2 = 4194304 bytes, CL = 64 bytes
+measured cpu frequency ~= 1440.812980
+using 20 random witnesses for Rabin-Miller PRP checks
+
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, New random seeds: 1004012482, 3235046864
+
+12/14/18 17:57:20 v1.34.5 @ DESKTOP-KC8VMI5, Processing expression: factor(2009)
+
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz
+detected L1 = 32768 bytes, L2 = 4194304 bytes, CL = 64 bytes
+measured cpu frequency ~= 1395.535280
+using 20 random witnesses for Rabin-Miller PRP checks
+
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, New random seeds: 1824369221, 4126874900
+
+12/14/18 17:58:08 v1.34.5 @ DESKTOP-KC8VMI5, Processing expression: factor(15485863)
+
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz
+detected L1 = 32768 bytes, L2 = 4194304 bytes, CL = 64 bytes
+measured cpu frequency ~= 1439.614410
+using 20 random witnesses for Rabin-Miller PRP checks
+
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, New random seeds: 4293347142, 2358976228
+
+12/14/18 17:58:17 v1.34.5 @ DESKTOP-KC8VMI5, Processing expression: factor(15485862)
+
